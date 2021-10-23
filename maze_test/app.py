@@ -6,7 +6,7 @@ from pygame.locals import *
 
 from maze_test.maze_generation import (expand, filter_to_only_in_maze, make,
                                        neighbor_cells)
-from maze_test.sprite_sheet import SpriteSheet
+from texture_atlas import TextureAtlas
 
 
 class Player:
@@ -162,7 +162,7 @@ class App:
         self.fake_screen = self.display.copy()
         self.display = pygame.display.set_mode((1000, 1000), pygame.RESIZABLE)
         self._running = True
-        ss = SpriteSheet()
+        ss = TextureAtlas()
         self.coin_sprite = ReversingSprite(ss.load_sprite("coin"))
 
         self.block_surf = ss.load_image("block")
@@ -170,7 +170,7 @@ class App:
         self.player_surf = ss.load_image("player")
         self.goal_surf = ss.load_image("coin-01")
         self.dot_surf = ss.load_image("dot")
-        self.complete = pygame.mixer.Sound("sounds/ding.ogg")
+        self.complete = pygame.mixer.Sound("../assets/sounds/ding.ogg")
         self.clock = pygame.time.Clock()
 
     def on_event(self, event):

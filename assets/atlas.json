@@ -1,0 +1,84 @@
+{
+    "filepath": "assets/atlas.png",
+    "width": 890,
+    "height": 258,
+    "regions": {
+        "0": {
+            "filepath": "raw_assets/balloon1.png",
+            "x": 1,
+            "y": 1,
+            "width": 204,
+            "height": 256
+        },
+        "1": {
+            "filepath": "raw_assets/balloon0.png",
+            "x": 207,
+            "y": 1,
+            "width": 204,
+            "height": 256
+        },
+        "2": {
+            "filepath": "raw_assets/balloon2.png",
+            "x": 413,
+            "y": 1,
+            "width": 204,
+            "height": 256
+        },
+        "3": {
+            "filepath": "raw_assets/coin-02.png",
+            "x": 619,
+            "y": 1,
+            "width": 32,
+            "height": 32
+        },
+        "4": {
+            "filepath": "raw_assets/coin-01.png",
+            "x": 653,
+            "y": 1,
+            "width": 32,
+            "height": 32
+        },
+        "5": {
+            "filepath": "raw_assets/tori.png",
+            "x": 687,
+            "y": 1,
+            "width": 32,
+            "height": 32
+        },
+        "6": {
+            "filepath": "raw_assets/coin-03.png",
+            "x": 721,
+            "y": 1,
+            "width": 32,
+            "height": 32
+        },
+        "7": {
+            "filepath": "raw_assets/dot.png",
+            "x": 755,
+            "y": 1,
+            "width": 32,
+            "height": 32
+        },
+        "8": {
+            "filepath": "raw_assets/block.png",
+            "x": 789,
+            "y": 1,
+            "width": 32,
+            "height": 32
+        },
+        "9": {
+            "filepath": "raw_assets/player.png",
+            "x": 823,
+            "y": 1,
+            "width": 32,
+            "height": 32
+        },
+        "10": {
+            "filepath": "raw_assets/coin-04.png",
+            "x": 857,
+            "y": 1,
+            "width": 32,
+            "height": 32
+        }
+    }
+}
